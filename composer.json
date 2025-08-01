@@ -1,5 +1,5 @@
 {
-    "name": "outlawz-team/laravel-magiclink",
+    "name": "cesargb/laravel-magiclink",
     "description": "Create secure link for access to private data or login in Laravel without password",
     "keywords": [
         "laravel",
