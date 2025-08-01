@@ -100,8 +100,6 @@ class MagicLink extends Model
      */
     public static function create(ActionAbstract $action, ?int $lifetime = 4320, ?int $numMaxVisits = null)
     {
-        static::deleteMagicLinkExpired();
-
         $magiclink = new static();
 
         $magiclink->token = Str::random(static::getTokenLength());
